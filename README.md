@@ -7,6 +7,11 @@ git commit -m "any message"
 
 git push
 
+#force pull
+git fetch origin
+git reset --hard origin/main
+
+
 pwd                    # Print current directory (where you are)
 
 ls                     # List files and folders in current directory
