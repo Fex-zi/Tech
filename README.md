@@ -8,6 +8,7 @@ git commit -m "any message"
 git push
 
 #force pull
+
 git fetch origin
 git reset --hard origin/main
 
