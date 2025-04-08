@@ -10,8 +10,10 @@ git push
 #force pull
 
 git fetch origin
+
 git reset --hard origin/main
 
+#End force pull
 
 pwd                    # Print current directory (where you are)
 
