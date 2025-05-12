@@ -15,6 +15,14 @@ git reset --hard origin/main
 
 #End force pull
 
+#Reset to a particular commit
+git log 
+
+#copy the commit ID
+git reset --hard 7098126a7bf0e08851395610940fd6af6342baa1
+
+#End Reset to a particular commit
+
 pwd                    # Print current directory (where you are)
 
 ls                     # List files and folders in current directory
