@@ -10,12 +10,14 @@ git checkout -b feature-login
 
 #OR
 
-#Seperate Function to create and eneter into branch
+#Seperate Function to create and enter into branch
 git branch feature-login
+
 git checkout feature-login
 
 # Stage and commit your changes
 git add .
+
 git commit -m "login functionality"
 
 # Push your new branch to the remote repository
