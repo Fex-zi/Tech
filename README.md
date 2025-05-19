@@ -5,8 +5,14 @@ git clone https://github.com/ggelashvili/learnphptherightway-project.git
 #clone git branch
 git clone -b 1.31 https://github.com/ggelashvili/learnphptherightway-project.git
 
-# Create a new branch for your feature
+# Create a new branch and go into it
 git checkout -b feature-login
+
+#OR
+
+#Seperate Function to create and eneter into branch
+git branch feature-login
+git checkout feature-login
 
 # Stage and commit your changes
 git add .
@@ -14,6 +20,18 @@ git commit -m "login functionality"
 
 # Push your new branch to the remote repository
 git push -u origin feature-login
+
+# List all local branches
+git branch
+
+# List all branches (local and remote)
+git branch -a
+
+# Delete a local branch
+git branch -d branch-name
+
+# Delete a remote branch
+git push origin --delete branch-name
 
 # Later, pull updates from remote
 git pull origin feature-login
