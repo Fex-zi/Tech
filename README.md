@@ -1,8 +1,8 @@
 # Tech
-#clone git
+# clone git
 git clone https://github.com/ggelashvili/learnphptherightway-project.git
 
-#clone git branch
+# clone git branch
 git clone -b 1.31 https://github.com/ggelashvili/learnphptherightway-project.git
 
 # Create a new branch and go into it
@@ -10,7 +10,7 @@ git checkout -b feature-login
 
 #OR
 
-#Seperate Function to create and enter into branch
+# Seperate Function to create and enter into branch
 git branch feature-login
 
 git checkout feature-login
