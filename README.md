@@ -1,5 +1,9 @@
 # Tech
+#clone git
+git clone https://github.com/ggelashvili/learnphptherightway-project.git
 
+#clone git branch
+git clone -b 1.31 https://github.com/ggelashvili/learnphptherightway-project.git
 
 git add .
 
@@ -26,6 +30,8 @@ git reset --hard 7098126a7bf0e08851395610940fd6af6342baa1
 #branch new-feature is the branch name
 git branch new-feature
 git checkout new-feature
+
+
 
 #Then normal add, commit, push---end branch
 
