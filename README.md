@@ -64,7 +64,8 @@ git reset --hard 7098126a7bf0e08851395610940fd6af6342baa1
 git branch new-feature
 git checkout new-feature
 
-
+#Templates
+https://themewagon.com/themes/
 
 #Then normal add, commit, push---end branch
 
