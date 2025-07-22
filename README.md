@@ -35,6 +35,9 @@ git branch -d branch-name
 # Delete a remote branch
 git push origin --delete branch-name
 
+# Force Pull
+git reset --hard origin/main
+
 # Later, pull updates from remote
 git pull origin feature-login
 
