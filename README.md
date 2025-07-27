@@ -50,7 +50,9 @@ git push
 # Whenever you want to start a new task, go to main and make a new branch with your initials and the task name
 
 git checkout main
+
 git pull main
+
 git checkout -b INITIALS-task-name
 
 #From this new branch, you can commit and push your changes. Make sure you never do git add . since it could apply changes you don't want. Instead, follow this process:
@@ -58,6 +60,7 @@ git checkout -b INITIALS-task-name
 #Stage your changes git add -p and say y(yes) or n(no) to each change.
 
 Commit your changes git commit -m "MESSAGE"
+
 Push your changes
 
 #The first time you push to a branch: git push -u origin BRANCH-NAME
