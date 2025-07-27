@@ -67,6 +67,17 @@ git reset --hard 7098126a7bf0e08851395610940fd6af6342baa1
 git branch new-feature
 git checkout new-feature
 
+#Whenever you want to start a new task, go to main and make a new branch with your initials and the task name
+From this new branch, you can commit and push your changes. Make sure you never do git add . since it could apply changes you don't want. Instead, follow this process:
+
+Stage your changes git add -p and say y(yes) or n(no) to each change.
+
+Commit your changes git commit -m "MESSAGE"
+Push your changes
+
+The first time you push to a branch: git push -u origin BRANCH-NAME
+Every time following: git push
+
 #Templates
 https://themewagon.com/themes/
 
