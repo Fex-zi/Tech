@@ -38,15 +38,6 @@ git push origin --delete branch-name
 # Force Pull
 git reset --hard origin/main
 
-# Later, pull updates from remote
-git pull origin feature-login
-
-git add .
-
-git commit -m "any message"
-
-git push
-
 # Whenever you want to start a new task, go to main and make a new branch with your initials and the task name
 
 git checkout main
@@ -65,6 +56,16 @@ Push your changes
 
 #The first time you push to a branch: git push -u origin BRANCH-NAME
 Every time following: git push
+
+
+# Later, pull updates from remote
+git pull origin feature-login
+
+git add .
+
+git commit -m "any message"
+
+git push
 
 #force pull
 
